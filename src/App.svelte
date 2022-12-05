@@ -58,8 +58,8 @@
 					<rect
 						x={i*23}
 						y={height - item.frequency * 1500}
-						witdh=20
-						height={item.frequency*1000}
+						width=20
+						height={item.frequency*1500}
 						fill="black"
 						stroke="black"></rect>
 					<text 

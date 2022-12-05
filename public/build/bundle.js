@@ -1611,8 +1611,8 @@ var app = (function () {
     			t = text(t_value);
     			attr_dev(rect, "x", rect_x_value = /*i*/ ctx[5] * 23);
     			attr_dev(rect, "y", rect_y_value = /*height*/ ctx[1] - /*item*/ ctx[3].frequency * 1500);
-    			attr_dev(rect, "witdh", "20");
-    			attr_dev(rect, "height", rect_height_value = /*item*/ ctx[3].frequency * 1000);
+    			attr_dev(rect, "width", "20");
+    			attr_dev(rect, "height", rect_height_value = /*item*/ ctx[3].frequency * 1500);
     			attr_dev(rect, "fill", "black");
     			attr_dev(rect, "stroke", "black");
     			add_location(rect, file, 57, 5, 2179);
